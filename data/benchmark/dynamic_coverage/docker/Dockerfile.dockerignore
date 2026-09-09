@@ -1,0 +1,13 @@
+**
+!data/
+!data/benchmark/
+!data/benchmark/mapping.csv
+!data/benchmark/all_func.csv
+!data/benchmark/dynamic_coverage/
+!data/benchmark/dynamic_coverage/collect_dynamic_coverage.py
+!data/benchmark/dynamic_coverage/docker/
+!data/benchmark/dynamic_coverage/docker/entrypoint.sh
+!data/repos/
+!data/repos/httpd/
+!data/repos/httpd/rawcode/
+!data/repos/httpd/rawcode/**

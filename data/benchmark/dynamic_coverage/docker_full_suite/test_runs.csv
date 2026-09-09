@@ -1,0 +1,602 @@
+test_nodeid,test_file,status,returncode,duration_seconds,profile_file_count,mapped_functions_hit,coverage_note
+test/modules/core/test_001_encoding.py::TestEncoding::test_core_001_01,test/modules/core/test_001_encoding.py,passed,0,2.355,175,39,
+test/modules/core/test_001_encoding.py::TestEncoding::test_core_001_03,test/modules/core/test_001_encoding.py,passed,0,1.65,175,39,
+test/modules/core/test_001_encoding.py::TestEncoding::test_core_001_04,test/modules/core/test_001_encoding.py,passed,0,1.432,175,41,
+test/modules/core/test_001_encoding.py::TestEncoding::test_core_001_20,test/modules/core/test_001_encoding.py,passed,0,1.292,175,41,
+test/modules/core/test_002_restarts.py::TestRestarts::test_core_002_01,test/modules/core/test_002_restarts.py,skipped,0,0.165,0,0,No .profraw files were produced
+test/modules/http1/test_001_alive.py::TestBasicAlive::test_h1_001_01,test/modules/http1/test_001_alive.py,passed,0,1.697,185,39,
+test/modules/http1/test_003_get.py::TestGet::test_h1_003_01,test/modules/http1/test_003_get.py,passed,0,1.544,185,39,
+test/modules/http1/test_004_post.py::TestPost::test_h1_004_01,test/modules/http1/test_004_post.py,passed,0,1.792,185,40,
+test/modules/http1/test_004_post.py::TestPost::test_h1_004_02,test/modules/http1/test_004_post.py,passed,0,1.761,185,40,
+test/modules/http1/test_004_post.py::TestPost::test_h1_004_03,test/modules/http1/test_004_post.py,passed,0,1.804,185,40,
+test/modules/http1/test_004_post.py::TestPost::test_h1_004_04,test/modules/http1/test_004_post.py,passed,0,1.845,185,40,
+test/modules/http1/test_004_post.py::TestPost::test_h1_004_05,test/modules/http1/test_004_post.py,passed,0,1.823,185,40,
+test/modules/http1/test_005_trailers.py::TestTrailers::test_h1_005_01,test/modules/http1/test_005_trailers.py,passed,0,1.754,185,36,
+test/modules/http1/test_005_trailers.py::TestTrailers::test_h1_005_02,test/modules/http1/test_005_trailers.py,passed,0,1.793,185,38,
+test/modules/http1/test_006_unsafe.py::TestRequestUnsafe::test_h1_006_01,test/modules/http1/test_006_unsafe.py,passed,0,1.923,185,42,
+test/modules/http1/test_007_strict.py::TestRequestStrict::test_h1_007_01,test/modules/http1/test_007_strict.py,passed,0,1.835,185,41,
+test/modules/http1/test_007_strict.py::TestRequestStrict::test_h1_007_02,test/modules/http1/test_007_strict.py,passed,0,5.042,1073,41,
+test/modules/http1/test_007_strict.py::TestRequestStrict::test_h1_007_03,test/modules/http1/test_007_strict.py,passed,0,3.888,851,39,
+test/modules/http2/test_001_httpd_alive.py::TestBasicAlive::test_h2_001_01,test/modules/http2/test_001_httpd_alive.py,passed,0,2.299,200,40,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_01,test/modules/http2/test_002_curl_basics.py,passed,0,2.206,200,39,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_02,test/modules/http2/test_002_curl_basics.py,passed,0,2.223,200,40,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_03,test/modules/http2/test_002_curl_basics.py,passed,0,2.246,200,39,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_04,test/modules/http2/test_002_curl_basics.py,passed,0,2.183,200,40,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_04b,test/modules/http2/test_002_curl_basics.py,passed,0,2.199,200,40,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_05,test/modules/http2/test_002_curl_basics.py,passed,0,2.235,200,39,
+test/modules/http2/test_002_curl_basics.py::TestCurlBasics::test_h2_002_06,test/modules/http2/test_002_curl_basics.py,passed,0,2.189,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_01,test/modules/http2/test_003_get.py,passed,0,2.219,200,40,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_02,test/modules/http2/test_003_get.py,passed,0,2.143,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_10,test/modules/http2/test_003_get.py,passed,0,2.257,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_11,test/modules/http2/test_003_get.py,passed,0,2.503,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_12,test/modules/http2/test_003_get.py,passed,0,2.16,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_13,test/modules/http2/test_003_get.py,passed,0,2.175,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_14,test/modules/http2/test_003_get.py,passed,0,2.282,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_20,test/modules/http2/test_003_get.py,passed,0,2.198,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_21,test/modules/http2/test_003_get.py,passed,0,2.174,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_30,test/modules/http2/test_003_get.py,passed,0,2.29,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_31,test/modules/http2/test_003_get.py,passed,0,2.368,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_40,test/modules/http2/test_003_get.py,passed,0,2.954,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_41,test/modules/http2/test_003_get.py,passed,0,2.689,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_50,test/modules/http2/test_003_get.py,passed,0,2.319,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_51,test/modules/http2/test_003_get.py,passed,0,2.202,200,35,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_52,test/modules/http2/test_003_get.py,passed,0,2.215,200,33,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_60,test/modules/http2/test_003_get.py,passed,0,2.231,200,39,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_70,test/modules/http2/test_003_get.py,passed,0,2.2,200,36,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_71,test/modules/http2/test_003_get.py,passed,0,2.255,200,34,
+test/modules/http2/test_003_get.py::TestGet::test_h2_003_72,test/modules/http2/test_003_get.py,passed,0,2.283,200,33,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_01,test/modules/http2/test_004_post.py,passed,0,2.365,200,41,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_02,test/modules/http2/test_004_post.py,passed,0,2.226,200,41,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_03,test/modules/http2/test_004_post.py,passed,0,2.25,200,41,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_04,test/modules/http2/test_004_post.py,passed,0,2.287,200,41,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_05,test/modules/http2/test_004_post.py,passed,0,2.369,200,41,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_06,test/modules/http2/test_004_post.py,passed,0,2.289,200,43,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_07,test/modules/http2/test_004_post.py,passed,0,2.554,200,33,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_21,test/modules/http2/test_004_post.py,passed,0,2.781,200,33,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_22,test/modules/http2/test_004_post.py,passed,0,3.051,200,33,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_23,test/modules/http2/test_004_post.py,passed,0,2.651,200,39,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_24,test/modules/http2/test_004_post.py,passed,0,2.614,200,39,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_25,test/modules/http2/test_004_post.py,passed,0,2.729,200,39,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_40,test/modules/http2/test_004_post.py,passed,0,2.142,200,35,
+test/modules/http2/test_004_post.py::TestPost::test_h2_004_41,test/modules/http2/test_004_post.py,passed,0,2.251,200,38,
+test/modules/http2/test_005_files.py::TestFiles::test_h2_005_01,test/modules/http2/test_005_files.py,passed,0,2.585,200,39,
+test/modules/http2/test_006_assets.py::TestAssets::test_h2_006_01,test/modules/http2/test_006_assets.py,passed,0,2.159,200,40,
+test/modules/http2/test_006_assets.py::TestAssets::test_h2_006_02,test/modules/http2/test_006_assets.py,passed,0,2.21,200,40,
+test/modules/http2/test_006_assets.py::TestAssets::test_h2_006_03,test/modules/http2/test_006_assets.py,passed,0,2.42,200,40,
+test/modules/http2/test_006_assets.py::TestAssets::test_h2_006_04,test/modules/http2/test_006_assets.py,passed,0,2.259,200,40,
+test/modules/http2/test_006_assets.py::TestAssets::test_h2_006_05,test/modules/http2/test_006_assets.py,passed,0,2.252,200,40,
+test/modules/http2/test_007_ssi.py::TestSSI::test_h2_007_01,test/modules/http2/test_007_ssi.py,passed,0,2.176,200,35,
+test/modules/http2/test_008_ranges.py::TestRanges::test_h2_008_01,test/modules/http2/test_008_ranges.py,passed,0,3.28,360,39,
+test/modules/http2/test_008_ranges.py::TestRanges::test_h2_008_02,test/modules/http2/test_008_ranges.py,passed,0,2.771,280,39,
+test/modules/http2/test_008_ranges.py::TestRanges::test_h2_008_03,test/modules/http2/test_008_ranges.py,passed,0,4.455,280,39,
+test/modules/http2/test_008_ranges.py::TestRanges::test_h2_008_04,test/modules/http2/test_008_ranges.py,passed,0,2.735,280,39,
+test/modules/http2/test_009_timing.py::TestTiming::test_h2_009_01,test/modules/http2/test_009_timing.py,passed,0,2.75,280,39,
+test/modules/http2/test_009_timing.py::TestTiming::test_h2_009_02,test/modules/http2/test_009_timing.py,passed,0,3.717,280,39,
+test/modules/http2/test_100_conn_reuse.py::TestConnReuse::test_h2_100_01,test/modules/http2/test_100_conn_reuse.py,passed,0,2.313,200,44,
+test/modules/http2/test_100_conn_reuse.py::TestConnReuse::test_h2_100_02,test/modules/http2/test_100_conn_reuse.py,passed,0,2.189,200,40,
+test/modules/http2/test_100_conn_reuse.py::TestConnReuse::test_h2_100_03,test/modules/http2/test_100_conn_reuse.py,passed,0,2.368,200,40,
+test/modules/http2/test_100_conn_reuse.py::TestConnReuse::test_h2_100_04,test/modules/http2/test_100_conn_reuse.py,passed,0,2.163,200,42,
+test/modules/http2/test_100_conn_reuse.py::TestConnReuse::test_h2_100_05,test/modules/http2/test_100_conn_reuse.py,passed,0,2.266,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_01,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.2,200,41,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_02,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.229,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_03,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.205,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_04,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.229,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_05,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.199,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_10a,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.192,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_10b,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.15,200,42,
+test/modules/http2/test_101_ssl_reneg.py::TestSslRenegotiation::test_h2_101_11,test/modules/http2/test_101_ssl_reneg.py,passed,0,2.189,200,43,
+test/modules/http2/test_102_require.py::TestRequire::test_h2_102_01,test/modules/http2/test_102_require.py,passed,0,2.172,200,42,
+test/modules/http2/test_102_require.py::TestRequire::test_h2_102_02,test/modules/http2/test_102_require.py,passed,0,2.175,200,42,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_01,test/modules/http2/test_103_upgrade.py,passed,0,2.133,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_02,test/modules/http2/test_103_upgrade.py,passed,0,2.142,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_03,test/modules/http2/test_103_upgrade.py,passed,0,2.149,200,41,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_04,test/modules/http2/test_103_upgrade.py,passed,0,2.215,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_05,test/modules/http2/test_103_upgrade.py,passed,0,2.138,200,41,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_06,test/modules/http2/test_103_upgrade.py,passed,0,2.178,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_07,test/modules/http2/test_103_upgrade.py,passed,0,2.126,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_20,test/modules/http2/test_103_upgrade.py,passed,0,2.174,200,40,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_21,test/modules/http2/test_103_upgrade.py,passed,0,2.172,200,42,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_22,test/modules/http2/test_103_upgrade.py,passed,0,2.175,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_23,test/modules/http2/test_103_upgrade.py,passed,0,2.173,200,39,
+test/modules/http2/test_103_upgrade.py::TestUpgrade::test_h2_103_24,test/modules/http2/test_103_upgrade.py,passed,0,2.151,200,40,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_01,test/modules/http2/test_104_padding.py,passed,0,2.134,200,42,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_02,test/modules/http2/test_104_padding.py,passed,0,3.075,200,42,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_03,test/modules/http2/test_104_padding.py,passed,0,2.393,200,42,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_04,test/modules/http2/test_104_padding.py,passed,0,2.401,200,42,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_05,test/modules/http2/test_104_padding.py,passed,0,2.411,200,42,
+test/modules/http2/test_104_padding.py::TestPadding::test_h2_104_06,test/modules/http2/test_104_padding.py,passed,0,2.403,200,42,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_01,test/modules/http2/test_105_timeout.py,passed,0,4.634,200,32,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_02,test/modules/http2/test_105_timeout.py,passed,0,4.658,200,32,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_03,test/modules/http2/test_105_timeout.py,passed,0,3.733,200,33,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_10,test/modules/http2/test_105_timeout.py,passed,0,2.128,200,35,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_11,test/modules/http2/test_105_timeout.py,passed,0,5.809,200,35,
+test/modules/http2/test_105_timeout.py::TestTimeout::test_h2_105_12,test/modules/http2/test_105_timeout.py,passed,0,8.145,200,38,
+test/modules/http2/test_106_shutdown.py::TestShutdown::test_h2_106_01,test/modules/http2/test_106_shutdown.py,passed,0,4.653,279,33,
+test/modules/http2/test_106_shutdown.py::TestShutdown::test_h2_106_02,test/modules/http2/test_106_shutdown.py,passed,0,4.36,320,40,
+test/modules/http2/test_107_frame_lengths.py::TestFrameLengths::test_h2_107_01,test/modules/http2/test_107_frame_lengths.py,passed,0,3.386,440,39,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_01,test/modules/http2/test_200_header_invalid.py,passed,0,3.751,200,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_02,test/modules/http2/test_200_header_invalid.py,passed,0,3.725,200,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_03,test/modules/http2/test_200_header_invalid.py,passed,0,2.364,200,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_10,test/modules/http2/test_200_header_invalid.py,passed,0,2.397,320,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_11,test/modules/http2/test_200_header_invalid.py,passed,0,2.66,320,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_12,test/modules/http2/test_200_header_invalid.py,passed,0,2.135,200,33,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_13,test/modules/http2/test_200_header_invalid.py,passed,0,2.118,200,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_14,test/modules/http2/test_200_header_invalid.py,passed,0,3.252,440,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_15,test/modules/http2/test_200_header_invalid.py,passed,0,2.424,320,35,
+test/modules/http2/test_200_header_invalid.py::TestInvalidHeaders::test_h2_200_16,test/modules/http2/test_200_header_invalid.py,passed,0,2.717,320,32,
+test/modules/http2/test_201_header_conditional.py::TestConditionalHeaders::test_h2_201_01,test/modules/http2/test_201_header_conditional.py,passed,0,2.157,200,40,
+test/modules/http2/test_201_header_conditional.py::TestConditionalHeaders::test_h2_201_02,test/modules/http2/test_201_header_conditional.py,passed,0,2.19,200,40,
+test/modules/http2/test_201_header_conditional.py::TestConditionalHeaders::test_h2_201_03,test/modules/http2/test_201_header_conditional.py,skipped,0,0.16,0,0,No .profraw files were produced
+test/modules/http2/test_201_header_conditional.py::TestConditionalHeaders::test_h2_201_04,test/modules/http2/test_201_header_conditional.py,passed,0,2.134,200,40,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_01,test/modules/http2/test_202_trailer.py,passed,0,2.24,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_02,test/modules/http2/test_202_trailer.py,passed,0,2.216,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_03,test/modules/http2/test_202_trailer.py,passed,0,2.19,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_03b,test/modules/http2/test_202_trailer.py,passed,0,2.178,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_04,test/modules/http2/test_202_trailer.py,passed,0,2.189,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_10,test/modules/http2/test_202_trailer.py,passed,0,2.187,200,33,
+test/modules/http2/test_202_trailer.py::TestTrailers::test_h2_202_11,test/modules/http2/test_202_trailer.py,passed,0,2.14,200,33,
+test/modules/http2/test_203_rfc9113.py::TestRfc9113::test_h2_203_01_ws_ignore,test/modules/http2/test_203_rfc9113.py,passed,0,2.138,200,40,
+test/modules/http2/test_203_rfc9113.py::TestRfc9113::test_h2_203_02,test/modules/http2/test_203_rfc9113.py,passed,0,7.136,1160,42,
+test/modules/http2/test_300_interim.py::TestInterimResponses::test_h2_300_01,test/modules/http2/test_300_interim.py,passed,0,2.157,200,40,
+test/modules/http2/test_300_interim.py::TestInterimResponses::test_h2_300_02,test/modules/http2/test_300_interim.py,passed,0,2.273,200,40,
+test/modules/http2/test_300_interim.py::TestInterimResponses::test_h2_300_03,test/modules/http2/test_300_interim.py,passed,0,2.458,200,42,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_00,test/modules/http2/test_400_push.py,passed,0,2.198,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_01,test/modules/http2/test_400_push.py,passed,0,2.266,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_02,test/modules/http2/test_400_push.py,passed,0,2.163,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_03,test/modules/http2/test_400_push.py,passed,0,2.133,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_04,test/modules/http2/test_400_push.py,passed,0,2.158,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_05,test/modules/http2/test_400_push.py,passed,0,2.165,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_06,test/modules/http2/test_400_push.py,passed,0,2.137,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_07,test/modules/http2/test_400_push.py,passed,0,2.151,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_08,test/modules/http2/test_400_push.py,passed,0,2.184,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_20,test/modules/http2/test_400_push.py,passed,0,2.192,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_30,test/modules/http2/test_400_push.py,passed,0,2.176,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_50,test/modules/http2/test_400_push.py,passed,0,2.147,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_51,test/modules/http2/test_400_push.py,passed,0,2.155,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_52,test/modules/http2/test_400_push.py,passed,0,2.178,200,40,
+test/modules/http2/test_400_push.py::TestPush::test_h2_400_53,test/modules/http2/test_400_push.py,passed,0,2.202,200,40,
+test/modules/http2/test_401_early_hints.py::TestEarlyHints::test_h2_401_31,test/modules/http2/test_401_early_hints.py,passed,0,2.18,200,40,
+test/modules/http2/test_401_early_hints.py::TestEarlyHints::test_h2_401_32,test/modules/http2/test_401_early_hints.py,passed,0,2.165,200,40,
+test/modules/http2/test_401_early_hints.py::TestEarlyHints::test_h2_401_33,test/modules/http2/test_401_early_hints.py,passed,0,1.925,200,40,
+test/modules/http2/test_401_early_hints.py::TestEarlyHints::test_h2_401_34,test/modules/http2/test_401_early_hints.py,passed,0,2.179,200,40,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_01,test/modules/http2/test_500_proxy.py,passed,0,2.166,200,42,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_10,test/modules/http2/test_500_proxy.py,passed,0,2.076,200,43,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_11,test/modules/http2/test_500_proxy.py,passed,0,2.229,200,43,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_20,test/modules/http2/test_500_proxy.py,passed,0,3.071,200,37,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_21,test/modules/http2/test_500_proxy.py,passed,0,3.04,200,37,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_22,test/modules/http2/test_500_proxy.py,passed,0,2.382,200,43,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_23,test/modules/http2/test_500_proxy.py,passed,0,2.329,200,43,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_24,test/modules/http2/test_500_proxy.py,passed,0,5.608,200,37,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_30,test/modules/http2/test_500_proxy.py,passed,0,2.251,200,40,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_31,test/modules/http2/test_500_proxy.py,passed,0,2.152,200,37,
+test/modules/http2/test_500_proxy.py::TestProxy::test_h2_500_32,test/modules/http2/test_500_proxy.py,passed,0,7.152,200,35,
+test/modules/http2/test_501_proxy_serverheader.py::TestProxyServerHeader::test_h2_501_01,test/modules/http2/test_501_proxy_serverheader.py,passed,0,2.16,200,42,
+test/modules/http2/test_502_proxy_port.py::TestProxyPort::test_h2_502_01,test/modules/http2/test_502_proxy_port.py,passed,0,2.133,200,38,
+test/modules/http2/test_503_proxy_fwd.py::TestProxyFwd::test_h2_503_01_proxy_fwd_h1,test/modules/http2/test_503_proxy_fwd.py,passed,0,2.161,200,41,
+test/modules/http2/test_503_proxy_fwd.py::TestProxyFwd::test_h2_503_02_fwd_proxy_h2_off,test/modules/http2/test_503_proxy_fwd.py,passed,0,2.191,200,35,
+test/modules/http2/test_503_proxy_fwd.py::TestProxyFwd::test_h2_503_03_proxy_fwd_h2_on,test/modules/http2/test_503_proxy_fwd.py,passed,0,2.718,320,42,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_01,test/modules/http2/test_600_h2proxy.py,passed,0,2.181,200,38,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_02,test/modules/http2/test_600_h2proxy.py,passed,0,2.188,200,38,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_03,test/modules/http2/test_600_h2proxy.py,passed,0,2.173,200,38,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_04,test/modules/http2/test_600_h2proxy.py,passed,0,2.758,320,38,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_05,test/modules/http2/test_600_h2proxy.py,passed,0,2.76,320,38,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_06,test/modules/http2/test_600_h2proxy.py,passed,0,2.145,200,42,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_30,test/modules/http2/test_600_h2proxy.py,passed,0,2.131,200,36,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_31,test/modules/http2/test_600_h2proxy.py,passed,0,2.149,200,36,
+test/modules/http2/test_600_h2proxy.py::TestH2Proxy::test_h2_600_32,test/modules/http2/test_600_h2proxy.py,passed,0,2.127,200,35,
+test/modules/http2/test_601_h2proxy_twisted.py::TestH2ProxyTwisted::test_h2_601_01_echo_uploads,test/modules/http2/test_601_h2proxy_twisted.py,passed,0,2.199,200,35,
+test/modules/http2/test_601_h2proxy_twisted.py::TestH2ProxyTwisted::test_h2_601_02_echo_delayed,test/modules/http2/test_601_h2proxy_twisted.py,passed,0,3.935,200,35,
+test/modules/http2/test_601_h2proxy_twisted.py::TestH2ProxyTwisted::test_h2_601_03_echo_fail_early,test/modules/http2/test_601_h2proxy_twisted.py,passed,0,2.264,200,38,
+test/modules/http2/test_601_h2proxy_twisted.py::TestH2ProxyTwisted::test_h2_601_04_echo_fail_late,test/modules/http2/test_601_h2proxy_twisted.py,passed,0,2.194,200,38,
+test/modules/http2/test_601_h2proxy_twisted.py::TestH2ProxyTwisted::test_h2_601_05_echo_fail_many,test/modules/http2/test_601_h2proxy_twisted.py,passed,0,2.233,200,36,
+test/modules/http2/test_700_load_get.py::TestLoadGet::test_h2_700_10,test/modules/http2/test_700_load_get.py,passed,0,4.281,200,33,
+test/modules/http2/test_700_load_get.py::TestLoadGet::test_h2_700_11,test/modules/http2/test_700_load_get.py,passed,0,7.118,200,33,
+test/modules/http2/test_700_load_get.py::TestLoadGet::test_h2_700_20,test/modules/http2/test_700_load_get.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/http2/test_710_load_post_static.py::TestLoadPostStatic::test_h2_710_00,test/modules/http2/test_710_load_post_static.py,passed,0,2.12,200,40,
+test/modules/http2/test_710_load_post_static.py::TestLoadPostStatic::test_h2_710_01,test/modules/http2/test_710_load_post_static.py,passed,0,2.251,200,40,
+test/modules/http2/test_710_load_post_static.py::TestLoadPostStatic::test_h2_710_02,test/modules/http2/test_710_load_post_static.py,passed,0,2.124,200,40,
+test/modules/http2/test_711_load_post_cgi.py::TestLoadCgi::test_h2_711_10,test/modules/http2/test_711_load_post_cgi.py,passed,0,2.805,200,33,
+test/modules/http2/test_711_load_post_cgi.py::TestLoadCgi::test_h2_711_11,test/modules/http2/test_711_load_post_cgi.py,passed,0,2.98,200,37,
+test/modules/http2/test_711_load_post_cgi.py::TestLoadCgi::test_h2_711_12,test/modules/http2/test_711_load_post_cgi.py,passed,0,2.834,200,33,
+test/modules/http2/test_712_buffering.py::TestBuffering::test_h2_712_01,test/modules/http2/test_712_buffering.py,skipped,0,0.172,0,0,No .profraw files were produced
+test/modules/http2/test_712_buffering.py::TestBuffering::test_h2_712_02,test/modules/http2/test_712_buffering.py,passed,0,3.398,200,35,
+test/modules/http2/test_712_buffering.py::TestBuffering::test_h2_712_03,test/modules/http2/test_712_buffering.py,passed,0,3.376,200,35,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_01_fail_proto,test/modules/http2/test_800_websockets.py,passed,0,2.288,241,36,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_02_ws_empty,test/modules/http2/test_800_websockets.py,passed,0,2.261,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_03_not_found,test/modules/http2/test_800_websockets.py,passed,0,2.274,241,35,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_04_non_ws_resource,test/modules/http2/test_800_websockets.py,passed,0,2.291,241,39,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_05_non_ws_delay_resource,test/modules/http2/test_800_websockets.py,passed,0,2.309,241,34,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_06_miss_version,test/modules/http2/test_800_websockets.py,passed,0,2.253,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_07_miss_path,test/modules/http2/test_800_websockets.py,passed,0,2.298,241,32,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_08_miss_scheme,test/modules/http2/test_800_websockets.py,passed,0,2.296,241,32,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_09a_miss_authority,test/modules/http2/test_800_websockets.py,passed,0,2.316,241,32,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_09b_unsupported,test/modules/http2/test_800_websockets.py,passed,0,2.336,241,36,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_10_ws_ping,test/modules/http2/test_800_websockets.py,passed,0,2.329,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_11_ws_timed_pings,test/modules/http2/test_800_websockets.py,passed,0,3.449,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_12_ws_unknown,test/modules/http2/test_800_websockets.py,passed,0,2.383,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_13_ws_text,test/modules/http2/test_800_websockets.py,passed,0,2.302,241,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_14_ws_file,test/modules/http2/test_800_websockets.py,passed,0,4.388,244,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_15_ws_frame_len,test/modules/http2/test_800_websockets.py,passed,0,5.013,245,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_16_ws_frame_delay,test/modules/http2/test_800_websockets.py,passed,0,9.243,244,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_17_ws_throughput,test/modules/http2/test_800_websockets.py,passed,0,3.637,243,33,
+test/modules/http2/test_800_websockets.py::TestWebSockets::test_h2_800_18_timeout,test/modules/http2/test_800_websockets.py,passed,0,5.422,241,33,
+test/modules/md/test_001_store.py::TestStore::test_md_001_001,test/modules/md/test_001_store.py,skipped,0,0.177,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_002,test/modules/md/test_001_store.py,skipped,0,0.181,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_100,test/modules/md/test_001_store.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_101,test/modules/md/test_001_store.py,skipped,0,0.18,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_102,test/modules/md/test_001_store.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_103,test/modules/md/test_001_store.py,skipped,0,0.226,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_104,test/modules/md/test_001_store.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_200,test/modules/md/test_001_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_201,test/modules/md/test_001_store.py,skipped,0,0.174,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_300,test/modules/md/test_001_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_301,test/modules/md/test_001_store.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_302,test/modules/md/test_001_store.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_303,test/modules/md/test_001_store.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_400,test/modules/md/test_001_store.py,skipped,0,0.181,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_401,test/modules/md/test_001_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_402,test/modules/md/test_001_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_403,test/modules/md/test_001_store.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_404,test/modules/md/test_001_store.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_001_store.py::TestStore::test_md_001_405,test/modules/md/test_001_store.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_010_store_migrate.py::TestStoreMigrate::test_md_010_000,test/modules/md/test_010_store_migrate.py,skipped,0,0.18,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_000,test/modules/md/test_100_reg_add.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_001,test/modules/md/test_100_reg_add.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_002,test/modules/md/test_100_reg_add.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_003,test/modules/md/test_100_reg_add.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_004,test/modules/md/test_100_reg_add.py,skipped,0,0.219,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_005,test/modules/md/test_100_reg_add.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_006,test/modules/md/test_100_reg_add.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_007,test/modules/md/test_100_reg_add.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_008,test/modules/md/test_100_reg_add.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_009,test/modules/md/test_100_reg_add.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_010,test/modules/md/test_100_reg_add.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_011,test/modules/md/test_100_reg_add.py,skipped,0,0.235,0,0,No .profraw files were produced
+test/modules/md/test_100_reg_add.py::TestRegAdd::test_md_100_012,test/modules/md/test_100_reg_add.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_000,test/modules/md/test_110_reg_update.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_001,test/modules/md/test_110_reg_update.py,skipped,0,0.219,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_002,test/modules/md/test_110_reg_update.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_003,test/modules/md/test_110_reg_update.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_004,test/modules/md/test_110_reg_update.py,skipped,0,0.191,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_005,test/modules/md/test_110_reg_update.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_006,test/modules/md/test_110_reg_update.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_007,test/modules/md/test_110_reg_update.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_008,test/modules/md/test_110_reg_update.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_100,test/modules/md/test_110_reg_update.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_101,test/modules/md/test_110_reg_update.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_102,test/modules/md/test_110_reg_update.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_200,test/modules/md/test_110_reg_update.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_201,test/modules/md/test_110_reg_update.py,skipped,0,0.201,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_202,test/modules/md/test_110_reg_update.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_203,test/modules/md/test_110_reg_update.py,skipped,0,0.197,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_300,test/modules/md/test_110_reg_update.py,skipped,0,0.337,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_301,test/modules/md/test_110_reg_update.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_302,test/modules/md/test_110_reg_update.py,skipped,0,0.201,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_303,test/modules/md/test_110_reg_update.py,skipped,0,0.202,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_304,test/modules/md/test_110_reg_update.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_305,test/modules/md/test_110_reg_update.py,skipped,0,0.201,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_400,test/modules/md/test_110_reg_update.py,skipped,0,0.192,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_402,test/modules/md/test_110_reg_update.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_403,test/modules/md/test_110_reg_update.py,skipped,0,0.215,0,0,No .profraw files were produced
+test/modules/md/test_110_reg_update.py::TestRegUpdate::test_md_110_404,test/modules/md/test_110_reg_update.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_120_reg_list.py::TestRegAdd::test_md_120_000,test/modules/md/test_120_reg_list.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_120_reg_list.py::TestRegAdd::test_md_120_001,test/modules/md/test_120_reg_list.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_120_reg_list.py::TestRegAdd::test_md_120_002,test/modules/md/test_120_reg_list.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_120_reg_list.py::TestRegAdd::test_md_120_003,test/modules/md/test_120_reg_list.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_000,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_000b,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_001,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_002,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_003,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_100,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.233,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_101,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.192,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_102,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_200,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_201,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_202,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_202_acmev2_regs.py::TestAcmeAcc::test_md_202_203,test/modules/md/test_202_acmev2_regs.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_001,test/modules/md/test_300_conf_validate.py,passed,0,3.335,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_002,test/modules/md/test_300_conf_validate.py,passed,0,2.491,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_003,test/modules/md/test_300_conf_validate.py,passed,0,2.618,252,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_004,test/modules/md/test_300_conf_validate.py,passed,0,2.43,252,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_005,test/modules/md/test_300_conf_validate.py,passed,0,2.52,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_006,test/modules/md/test_300_conf_validate.py,passed,0,2.726,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_007,test/modules/md/test_300_conf_validate.py,passed,0,2.477,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_008,test/modules/md/test_300_conf_validate.py,passed,0,2.755,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_009,test/modules/md/test_300_conf_validate.py,passed,0,2.208,288,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_010,test/modules/md/test_300_conf_validate.py,passed,0,2.637,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_011a,test/modules/md/test_300_conf_validate.py,passed,0,3.128,288,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_011b,test/modules/md/test_300_conf_validate.py,passed,0,2.588,252,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_012,test/modules/md/test_300_conf_validate.py,passed,0,2.489,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_013,test/modules/md/test_300_conf_validate.py,passed,0,2.671,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_014,test/modules/md/test_300_conf_validate.py,passed,0,2.693,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_015,test/modules/md/test_300_conf_validate.py,passed,0,2.548,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_016,test/modules/md/test_300_conf_validate.py,passed,0,3.232,756,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_017,test/modules/md/test_300_conf_validate.py,passed,0,2.673,540,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_018,test/modules/md/test_300_conf_validate.py,passed,0,2.819,540,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_019,test/modules/md/test_300_conf_validate.py,passed,0,2.4,324,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_020,test/modules/md/test_300_conf_validate.py,passed,0,2.788,432,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_021,test/modules/md/test_300_conf_validate.py,passed,0,2.701,252,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_022,test/modules/md/test_300_conf_validate.py,passed,0,2.638,216,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_023,test/modules/md/test_300_conf_validate.py,passed,0,2.382,216,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_024,test/modules/md/test_300_conf_validate.py,passed,0,2.289,324,1,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_025,test/modules/md/test_300_conf_validate.py,passed,0,5.342,756,41,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_026,test/modules/md/test_300_conf_validate.py,passed,0,2.934,252,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_027,test/modules/md/test_300_conf_validate.py,passed,0,4.516,648,41,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_028,test/modules/md/test_300_conf_validate.py,passed,0,3.091,360,39,
+test/modules/md/test_300_conf_validate.py::TestConf::test_md_300_029,test/modules/md/test_300_conf_validate.py,passed,0,5.507,396,39,
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_001,test/modules/md/test_310_conf_store.py,skipped,0,0.198,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_100,test/modules/md/test_310_conf_store.py,skipped,0,0.198,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_101,test/modules/md/test_310_conf_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_102,test/modules/md/test_310_conf_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_103,test/modules/md/test_310_conf_store.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_104,test/modules/md/test_310_conf_store.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_105,test/modules/md/test_310_conf_store.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_106,test/modules/md/test_310_conf_store.py,skipped,0,0.201,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_107,test/modules/md/test_310_conf_store.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_108,test/modules/md/test_310_conf_store.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_109,test/modules/md/test_310_conf_store.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_110,test/modules/md/test_310_conf_store.py,skipped,0,0.191,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_111,test/modules/md/test_310_conf_store.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_112,test/modules/md/test_310_conf_store.py,skipped,0,0.241,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_113a,test/modules/md/test_310_conf_store.py,skipped,0,0.216,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_113b,test/modules/md/test_310_conf_store.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_114,test/modules/md/test_310_conf_store.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_115,test/modules/md/test_310_conf_store.py,skipped,0,0.197,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_116,test/modules/md/test_310_conf_store.py,skipped,0,0.192,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_117,test/modules/md/test_310_conf_store.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_118,test/modules/md/test_310_conf_store.py,skipped,0,0.198,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_119,test/modules/md/test_310_conf_store.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_120,test/modules/md/test_310_conf_store.py,skipped,0,0.195,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_121,test/modules/md/test_310_conf_store.py,skipped,0,0.196,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_122,test/modules/md/test_310_conf_store.py,skipped,0,0.195,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_200,test/modules/md/test_310_conf_store.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_201,test/modules/md/test_310_conf_store.py,skipped,0,0.235,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_202,test/modules/md/test_310_conf_store.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_203,test/modules/md/test_310_conf_store.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_204,test/modules/md/test_310_conf_store.py,skipped,0,0.198,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_205,test/modules/md/test_310_conf_store.py,skipped,0,0.203,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_206,test/modules/md/test_310_conf_store.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_207,test/modules/md/test_310_conf_store.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_208,test/modules/md/test_310_conf_store.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_209,test/modules/md/test_310_conf_store.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_210,test/modules/md/test_310_conf_store.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_211,test/modules/md/test_310_conf_store.py,skipped,0,0.195,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_300,test/modules/md/test_310_conf_store.py,skipped,0,0.197,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_301,test/modules/md/test_310_conf_store.py,skipped,0,0.247,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_302,test/modules/md/test_310_conf_store.py,skipped,0,0.2,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_303,test/modules/md/test_310_conf_store.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_304,test/modules/md/test_310_conf_store.py,skipped,0,0.197,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_305,test/modules/md/test_310_conf_store.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_306,test/modules/md/test_310_conf_store.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_307,test/modules/md/test_310_conf_store.py,skipped,0,0.191,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_308,test/modules/md/test_310_conf_store.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_309,test/modules/md/test_310_conf_store.py,skipped,0,0.192,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_310,test/modules/md/test_310_conf_store.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_400,test/modules/md/test_310_conf_store.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_401,test/modules/md/test_310_conf_store.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_500,test/modules/md/test_310_conf_store.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_501,test/modules/md/test_310_conf_store.py,skipped,0,0.272,0,0,No .profraw files were produced
+test/modules/md/test_310_conf_store.py::TestConf::test_md_310_601,test/modules/md/test_310_conf_store.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_000,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_001,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_003,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_100,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_101,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_103,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.194,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_105,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.176,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_107,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.196,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_108,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_109,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_110,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_111,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_120,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_200,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_201,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_202,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_300,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_301,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.188,0,0,No .profraw files were produced
+test/modules/md/test_502_acmev2_drive.py::TestDrivev2::test_md_502_400,test/modules/md/test_502_acmev2_drive.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_602_roundtrip.py::TestRoundtripv2::test_md_602_000,test/modules/md/test_602_roundtrip.py,skipped,0,0.189,0,0,No .profraw files were produced
+test/modules/md/test_602_roundtrip.py::TestRoundtripv2::test_md_602_001,test/modules/md/test_602_roundtrip.py,skipped,0,0.202,0,0,No .profraw files were produced
+test/modules/md/test_602_roundtrip.py::TestRoundtripv2::test_md_602_002,test/modules/md/test_602_roundtrip.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_001,test/modules/md/test_702_auto.py,passed,0,4.704,504,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_002,test/modules/md/test_702_auto.py,passed,0,6.162,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_003,test/modules/md/test_702_auto.py,passed,0,4.891,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_004,test/modules/md/test_702_auto.py,passed,0,8.061,576,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_005,test/modules/md/test_702_auto.py,passed,0,3.642,324,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_006,test/modules/md/test_702_auto.py,passed,0,4.432,324,43,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_008,test/modules/md/test_702_auto.py,passed,0,3.086,324,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_008a,test/modules/md/test_702_auto.py,passed,0,5.334,468,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_009,test/modules/md/test_702_auto.py,passed,0,7.397,540,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_010,test/modules/md/test_702_auto.py,failed,1,64.03,432,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_011,test/modules/md/test_702_auto.py,failed,1,63.767,432,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_030,test/modules/md/test_702_auto.py,passed,0,4.881,504,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_031,test/modules/md/test_702_auto.py,passed,0,6.438,576,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_032,test/modules/md/test_702_auto.py,passed,0,7.284,576,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_040,test/modules/md/test_702_auto.py,passed,0,4.855,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_041,test/modules/md/test_702_auto.py,passed,0,3.326,324,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_042,test/modules/md/test_702_auto.py,passed,0,5.701,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_043,test/modules/md/test_702_auto.py,passed,0,5.187,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_044,test/modules/md/test_702_auto.py,passed,0,4.922,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_050,test/modules/md/test_702_auto.py,passed,0,4.635,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_051,test/modules/md/test_702_auto.py,passed,0,3.192,324,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_052,test/modules/md/test_702_auto.py,passed,0,4.688,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_060,test/modules/md/test_702_auto.py,skipped,0,0.191,0,0,No .profraw files were produced
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_070,test/modules/md/test_702_auto.py,passed,0,4.345,396,41,
+test/modules/md/test_702_auto.py::TestAutov2::test_md_702_071,test/modules/md/test_702_auto.py,passed,0,5.196,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_001,test/modules/md/test_720_wildcard.py,passed,0,3.684,324,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_002,test/modules/md/test_720_wildcard.py,passed,0,4.499,324,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_002b,test/modules/md/test_720_wildcard.py,passed,0,4.532,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_003,test/modules/md/test_720_wildcard.py,passed,0,3.881,324,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_004,test/modules/md/test_720_wildcard.py,passed,0,4.47,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_005,test/modules/md/test_720_wildcard.py,passed,0,4.51,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_006,test/modules/md/test_720_wildcard.py,passed,0,4.913,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_007,test/modules/md/test_720_wildcard.py,passed,0,4.648,396,41,
+test/modules/md/test_720_wildcard.py::TestWildcard::test_md_720_008,test/modules/md/test_720_wildcard.py,passed,0,4.464,396,41,
+test/modules/md/test_730_static.py::TestStatic::test_md_730_001,test/modules/md/test_730_static.py,passed,0,2.908,324,41,
+test/modules/md/test_730_static.py::TestStatic::test_md_730_002,test/modules/md/test_730_static.py,passed,0,4.33,324,41,
+test/modules/md/test_730_static.py::TestStatic::test_md_730_003,test/modules/md/test_730_static.py,passed,0,2.661,432,39,
+test/modules/md/test_740_acme_errors.py::TestAcmeErrors::test_md_740_000,test/modules/md/test_740_acme_errors.py,passed,0,4.504,324,41,
+test/modules/md/test_740_acme_errors.py::TestAcmeErrors::test_md_740_001,test/modules/md/test_740_acme_errors.py,passed,0,4.121,324,41,
+test/modules/md/test_741_setup_errors.py::TestSetupErrors::test_md_741_001,test/modules/md/test_741_setup_errors.py,failed,1,14.27,324,41,
+test/modules/md/test_750_eab.py::TestEab::test_md_750_001,test/modules/md/test_750_eab.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_002,test/modules/md/test_750_eab.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_003,test/modules/md/test_750_eab.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_004,test/modules/md/test_750_eab.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_005,test/modules/md/test_750_eab.py,skipped,0,0.202,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_010,test/modules/md/test_750_eab.py,skipped,0,0.181,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_011,test/modules/md/test_750_eab.py,skipped,0,0.18,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_012,test/modules/md/test_750_eab.py,skipped,0,0.173,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_013,test/modules/md/test_750_eab.py,skipped,0,0.179,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_014,test/modules/md/test_750_eab.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_015,test/modules/md/test_750_eab.py,skipped,0,0.176,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_016,test/modules/md/test_750_eab.py,skipped,0,0.176,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_017,test/modules/md/test_750_eab.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_018,test/modules/md/test_750_eab.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_019,test/modules/md/test_750_eab.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_020,test/modules/md/test_750_eab.py,skipped,0,0.174,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_021,test/modules/md/test_750_eab.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_750_eab.py::TestEab::test_md_750_022,test/modules/md/test_750_eab.py,skipped,0,0.176,0,0,No .profraw files were produced
+test/modules/md/test_751_sectigo.py::TestSectigo::test_md_751_001,test/modules/md/test_751_sectigo.py,skipped,0,0.19,0,0,No .profraw files were produced
+test/modules/md/test_751_sectigo.py::TestSectigo::test_md_751_002,test/modules/md/test_751_sectigo.py,skipped,0,0.186,0,0,No .profraw files were produced
+test/modules/md/test_751_sectigo.py::TestSectigo::test_md_751_003,test/modules/md/test_751_sectigo.py,skipped,0,0.172,0,0,No .profraw files were produced
+test/modules/md/test_751_sectigo.py::TestSectigo::test_md_751_004,test/modules/md/test_751_sectigo.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/md/test_751_sectigo.py::TestSectigo::test_md_751_020,test/modules/md/test_751_sectigo.py,skipped,0,0.181,0,0,No .profraw files were produced
+test/modules/md/test_752_zerossl.py::TestZeroSSL::test_md_752_001,test/modules/md/test_752_zerossl.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/md/test_752_zerossl.py::TestZeroSSL::test_md_752_002,test/modules/md/test_752_zerossl.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/md/test_752_zerossl.py::TestZeroSSL::test_md_752_003,test/modules/md/test_752_zerossl.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_752_zerossl.py::TestZeroSSL::test_md_752_004,test/modules/md/test_752_zerossl.py,skipped,0,0.193,0,0,No .profraw files were produced
+test/modules/md/test_752_zerossl.py::TestZeroSSL::test_md_752_020,test/modules/md/test_752_zerossl.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_780_tailscale.py::TestTailscale::test_md_780_001,test/modules/md/test_780_tailscale.py,passed,0,3.263,324,41,
+test/modules/md/test_780_tailscale.py::TestTailscale::test_md_780_002,test/modules/md/test_780_tailscale.py,passed,0,4.127,468,41,
+test/modules/md/test_780_tailscale.py::TestTailscale::test_md_780_003,test/modules/md/test_780_tailscale.py,passed,0,2.778,324,41,
+test/modules/md/test_790_failover.py::TestFailover::test_md_790_001,test/modules/md/test_790_failover.py,passed,0,4.711,396,41,
+test/modules/md/test_790_failover.py::TestFailover::test_md_790_002,test/modules/md/test_790_failover.py,failed,1,63.109,324,41,
+test/modules/md/test_790_failover.py::TestFailover::test_md_790_003,test/modules/md/test_790_failover.py,failed,1,63.99,324,41,
+test/modules/md/test_800_must_staple.py::TestMustStaple::test_md_800_001,test/modules/md/test_800_must_staple.py,passed,0,5.327,396,41,
+test/modules/md/test_800_must_staple.py::TestMustStaple::test_md_800_002,test/modules/md/test_800_must_staple.py,failed,1,3.348,324,41,
+test/modules/md/test_800_must_staple.py::TestMustStaple::test_md_800_003,test/modules/md/test_800_must_staple.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/md/test_800_must_staple.py::TestMustStaple::test_md_800_004,test/modules/md/test_800_must_staple.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_001,test/modules/md/test_801_stapling.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_002,test/modules/md/test_801_stapling.py,skipped,0,0.298,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_003,test/modules/md/test_801_stapling.py,skipped,0,0.216,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_004,test/modules/md/test_801_stapling.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_005,test/modules/md/test_801_stapling.py,skipped,0,0.183,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_006,test/modules/md/test_801_stapling.py,skipped,0,0.185,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_007,test/modules/md/test_801_stapling.py,skipped,0,0.179,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_008,test/modules/md/test_801_stapling.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_009,test/modules/md/test_801_stapling.py,skipped,0,0.18,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_010,test/modules/md/test_801_stapling.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_801_stapling.py::TestStapling::test_md_801_011,test/modules/md/test_801_stapling.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_001,test/modules/md/test_810_ec.py,passed,0,4.579,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_002,test/modules/md/test_810_ec.py,passed,0,4.115,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_003a,test/modules/md/test_810_ec.py,passed,0,5.085,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_003b,test/modules/md/test_810_ec.py,passed,0,6.942,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_004,test/modules/md/test_810_ec.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_005,test/modules/md/test_810_ec.py,passed,0,6.997,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_006,test/modules/md/test_810_ec.py,passed,0,4.296,396,41,
+test/modules/md/test_810_ec.py::TestAutov2::test_md_810_007,test/modules/md/test_810_ec.py,passed,0,6.3,576,41,
+test/modules/md/test_820_locks.py::TestLocks::test_md_820_001,test/modules/md/test_820_locks.py,passed,0,4.606,288,41,
+test/modules/md/test_820_locks.py::TestLocks::test_md_820_002,test/modules/md/test_820_locks.py,skipped,0,0.199,0,0,No .profraw files were produced
+test/modules/md/test_900_notify.py::TestNotify::test_md_900_001,test/modules/md/test_900_notify.py,passed,0,3.492,216,41,
+test/modules/md/test_900_notify.py::TestNotify::test_md_900_002,test/modules/md/test_900_notify.py,passed,0,3.676,216,41,
+test/modules/md/test_900_notify.py::TestNotify::test_md_900_010,test/modules/md/test_900_notify.py,passed,0,5.949,216,41,
+test/modules/md/test_900_notify.py::TestNotify::test_md_900_011,test/modules/md/test_900_notify.py,passed,0,4.53,216,41,
+test/modules/md/test_900_notify.py::TestNotify::test_md_900_012,test/modules/md/test_900_notify.py,passed,0,5.19,216,41,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_001,test/modules/md/test_901_message.py,passed,0,3.34,324,41,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_002,test/modules/md/test_901_message.py,passed,0,4.419,324,41,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_003,test/modules/md/test_901_message.py,passed,0,5.342,360,41,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_004,test/modules/md/test_901_message.py,skipped,0,0.218,0,0,No .profraw files were produced
+test/modules/md/test_901_message.py::TestMessage::test_md_901_010,test/modules/md/test_901_message.py,passed,0,3.417,324,39,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_011,test/modules/md/test_901_message.py,passed,0,4.61,396,39,
+test/modules/md/test_901_message.py::TestMessage::test_md_901_020,test/modules/md/test_901_message.py,skipped,0,0.203,0,0,No .profraw files were produced
+test/modules/md/test_901_message.py::TestMessage::test_md_901_030,test/modules/md/test_901_message.py,skipped,0,0.182,0,0,No .profraw files were produced
+test/modules/md/test_901_message.py::TestMessage::test_md_901_040,test/modules/md/test_901_message.py,passed,0,5.23,324,41,
+test/modules/md/test_910_cleanups.py::TestCleanups::test_md_910_01,test/modules/md/test_910_cleanups.py,passed,0,3.133,324,39,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_001,test/modules/md/test_920_status.py,passed,0,4.151,288,41,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_002,test/modules/md/test_920_status.py,passed,0,3.589,216,41,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_003,test/modules/md/test_920_status.py,passed,0,4.349,216,43,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_004,test/modules/md/test_920_status.py,passed,0,4.495,288,41,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_010,test/modules/md/test_920_status.py,passed,0,4.188,216,41,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_011,test/modules/md/test_920_status.py,passed,0,2.747,216,41,
+test/modules/md/test_920_status.py::TestStatus::test_md_920_020,test/modules/md/test_920_status.py,passed,0,5.826,288,41,
+test/modules/proxy/test_01_http.py::TestProxyHttp::test_proxy_01_001,test/modules/proxy/test_01_http.py,passed,0,2.439,180,39,
+test/modules/proxy/test_01_http.py::TestProxyHttp::test_proxy_01_002,test/modules/proxy/test_01_http.py,passed,0,1.748,180,39,
+test/modules/proxy/test_01_http.py::TestProxyHttp::test_proxy_01_003,test/modules/proxy/test_01_http.py,passed,0,1.973,288,39,
+test/modules/proxy/test_02_unix.py::TestProxyUds::test_proxy_02_001,test/modules/proxy/test_02_unix.py,passed,0,1.705,180,39,
+test/modules/proxy/test_02_unix.py::TestProxyUds::test_proxy_02_002,test/modules/proxy/test_02_unix.py,passed,0,1.807,180,39,
+test/modules/proxy/test_02_unix.py::TestProxyUds::test_proxy_02_003,test/modules/proxy/test_02_unix.py,passed,0,2.066,180,41,
+test/modules/tls/test_01_apache.py::TestApache::test_tls_01_apache_http,test/modules/tls/test_01_apache.py,passed,0,6.098,185,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_args_missing,test/modules/tls/test_02_conf.py,passed,0,4.763,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_single_arg,test/modules/tls/test_02_conf.py,passed,0,4.613,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_file_missing,test/modules/tls/test_02_conf.py,passed,0,4.692,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_file_exist,test/modules/tls/test_02_conf.py,passed,0,4.673,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_listen_missing,test/modules/tls/test_02_conf.py,passed,0,4.602,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_listen_wrong,test/modules/tls/test_02_conf.py,passed,0,4.637,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_listen_valid,test/modules/tls/test_02_conf.py,passed,0,5.373,555,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cert_listen_cert,test/modules/tls/test_02_conf.py,passed,0,4.684,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_proto_wrong,test/modules/tls/test_02_conf.py,passed,0,4.793,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_proto_valid,test/modules/tls/test_02_conf.py,passed,0,6.813,777,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_honor_wrong,test/modules/tls/test_02_conf.py,passed,0,5.025,333,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_honor_valid,test/modules/tls/test_02_conf.py,passed,0,5.184,481,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cipher_valid,test/modules/tls/test_02_conf.py,passed,0,6.504,777,39,
+test/modules/tls/test_02_conf.py::TestConf::test_tls_02_conf_cipher_wrong,test/modules/tls/test_02_conf.py,passed,0,6.026,777,39,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_get_a,test/modules/tls/test_03_sni.py,passed,0,4.384,185,39,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_get_b,test/modules/tls/test_03_sni.py,passed,0,4.439,185,39,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_unknown,test/modules/tls/test_03_sni.py,passed,0,4.456,185,39,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_request_other_same_config,test/modules/tls/test_03_sni.py,failed,1,4.507,185,41,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_request_other_other_honor,test/modules/tls/test_03_sni.py,failed,1,4.701,296,41,
+test/modules/tls/test_03_sni.py::TestSni::test_tls_03_sni_bad_hostname,test/modules/tls/test_03_sni.py,skipped,0,0.167,0,0,No .profraw files were produced
+test/modules/tls/test_04_get.py::TestGet::test_tls_04_get,test/modules/tls/test_04_get.py,passed,0,4.532,185,39,
+test/modules/tls/test_04_get.py::TestGet::test_tls_04_double_get,test/modules/tls/test_04_get.py,passed,0,4.403,185,39,
+test/modules/tls/test_05_proto.py::TestProto::test_tls_05_proto_1_2,test/modules/tls/test_05_proto.py,passed,0,4.363,185,39,
+test/modules/tls/test_05_proto.py::TestProto::test_tls_05_proto_1_3,test/modules/tls/test_05_proto.py,skipped,0,0.167,0,0,No .profraw files were produced
+test/modules/tls/test_05_proto.py::TestProto::test_tls_05_proto_close,test/modules/tls/test_05_proto.py,passed,0,4.514,185,39,
+test/modules/tls/test_05_proto.py::TestProto::test_tls_05_proto_ssl_close,test/modules/tls/test_05_proto.py,passed,0,5.134,296,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_ecdsa,test/modules/tls/test_06_ciphers.py,passed,0,4.493,185,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_rsa,test/modules/tls/test_06_ciphers.py,passed,0,4.426,185,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_server_prefer_ecdsa,test/modules/tls/test_06_ciphers.py,passed,0,5.876,518,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_server_prefer_rsa,test/modules/tls/test_06_ciphers.py,skipped,0,0.176,0,0,No .profraw files were produced
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_server_prefer_rsa_alias,test/modules/tls/test_06_ciphers.py,skipped,0,0.167,0,0,No .profraw files were produced
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_server_prefer_rsa_id,test/modules/tls/test_06_ciphers.py,skipped,0,0.167,0,0,No .profraw files were produced
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_pref_unknown,test/modules/tls/test_06_ciphers.py,passed,0,4.705,407,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_pref_unsupported,test/modules/tls/test_06_ciphers.py,passed,0,4.456,296,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_supp_unknown,test/modules/tls/test_06_ciphers.py,passed,0,4.517,296,39,
+test/modules/tls/test_06_ciphers.py::TestCiphers::test_tls_06_ciphers_supp_unsupported,test/modules/tls/test_06_ciphers.py,passed,0,4.398,222,39,
+test/modules/tls/test_07_alpn.py::TestAlpn::test_tls_07_alpn_get_a,test/modules/tls/test_07_alpn.py,failed,1,4.445,185,39,
+test/modules/tls/test_07_alpn.py::TestAlpn::test_tls_07_alpn_get_b,test/modules/tls/test_07_alpn.py,failed,1,4.371,185,40,
+test/modules/tls/test_08_vars.py::TestVars::test_tls_08_vars_root,test/modules/tls/test_08_vars.py,passed,0,4.408,185,41,
+test/modules/tls/test_08_vars.py::TestVars::test_tls_08_vars_const,test/modules/tls/test_08_vars.py,passed,0,4.644,185,41,
+test/modules/tls/test_08_vars.py::TestVars::test_tls_08_vars_match,test/modules/tls/test_08_vars.py,passed,0,4.484,185,41,
+test/modules/tls/test_09_timeout.py::TestTimeout::test_tls_09_timeout_handshake,test/modules/tls/test_09_timeout.py,passed,0,5.507,185,39,
+test/modules/tls/test_10_session_id.py::TestSessionID::test_tls_10_session_id_12,test/modules/tls/test_10_session_id.py,passed,0,4.776,185,39,
+test/modules/tls/test_10_session_id.py::TestSessionID::test_tls_10_session_id_13,test/modules/tls/test_10_session_id.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/tls/test_11_md.py::TestMD::test_tls_11_get_a,test/modules/tls/test_11_md.py,passed,0,4.513,186,39,
+test/modules/tls/test_11_md.py::TestMD::test_tls_11_get_b,test/modules/tls/test_11_md.py,passed,0,4.532,186,39,
+test/modules/tls/test_11_md.py::TestMD::test_tls_11_get_base,test/modules/tls/test_11_md.py,failed,1,4.64,298,39,
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_set_ca_non_existing,test/modules/tls/test_12_cauth.py,skipped,0,0.187,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_set_ca_existing,test/modules/tls/test_12_cauth.py,skipped,0,0.172,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_set_auth_no_ca,test/modules/tls/test_12_cauth.py,skipped,0,0.211,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_option_std,test/modules/tls/test_12_cauth.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_option_cert,test/modules/tls/test_12_cauth.py,skipped,0,0.203,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_ssl_optional,test/modules/tls/test_12_cauth.py,skipped,0,0.198,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_optional,test/modules/tls/test_12_cauth.py,skipped,0,0.174,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_expired,test/modules/tls/test_12_cauth.py,skipped,0,0.184,0,0,No .profraw files were produced
+test/modules/tls/test_12_cauth.py::TestTLS::test_tls_12_auth_other_ca,test/modules/tls/test_12_cauth.py,skipped,0,0.173,0,0,No .profraw files were produced
+test/modules/tls/test_13_proxy.py::TestProxy::test_tls_13_proxy_http_get,test/modules/tls/test_13_proxy.py,passed,0,4.439,185,39,
+test/modules/tls/test_13_proxy.py::TestProxy::test_tls_13_proxy_http_vars,test/modules/tls/test_13_proxy.py,passed,0,4.632,185,43,
+test/modules/tls/test_14_proxy_ssl.py::TestProxySSL::test_tls_14_proxy_ssl_get,test/modules/tls/test_14_proxy_ssl.py,passed,0,4.416,185,40,
+test/modules/tls/test_14_proxy_ssl.py::TestProxySSL::test_tls_14_proxy_ssl_get_local,test/modules/tls/test_14_proxy_ssl.py,passed,0,4.383,185,42,
+test/modules/tls/test_14_proxy_ssl.py::TestProxySSL::test_tls_14_proxy_ssl_h2_get,test/modules/tls/test_14_proxy_ssl.py,passed,0,4.445,185,40,
+test/modules/tls/test_14_proxy_ssl.py::TestProxySSL::test_tls_14_proxy_ssl_vars_const,test/modules/tls/test_14_proxy_ssl.py,passed,0,4.704,185,44,
+test/modules/tls/test_14_proxy_ssl.py::TestProxySSL::test_tls_14_proxy_ssl_vars_match,test/modules/tls/test_14_proxy_ssl.py,passed,0,4.47,185,44,
+test/modules/tls/test_15_proxy_tls.py::TestProxyTLS::test_tls_15_proxy_tls_get,test/modules/tls/test_15_proxy_tls.py,skipped,0,0.18,0,0,No .profraw files were produced
+test/modules/tls/test_15_proxy_tls.py::TestProxyTLS::test_tls_15_proxy_tls_get_local,test/modules/tls/test_15_proxy_tls.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/tls/test_15_proxy_tls.py::TestProxyTLS::test_tls_15_proxy_tls_h2_get,test/modules/tls/test_15_proxy_tls.py,skipped,0,0.178,0,0,No .profraw files were produced
+test/modules/tls/test_15_proxy_tls.py::TestProxyTLS::test_tls_15_proxy_tls_h1_vars,test/modules/tls/test_15_proxy_tls.py,skipped,0,0.175,0,0,No .profraw files were produced
+test/modules/tls/test_15_proxy_tls.py::TestProxyTLS::test_tls_15_proxy_tls_h2_vars,test/modules/tls/test_15_proxy_tls.py,skipped,0,0.177,0,0,No .profraw files were produced
+test/modules/tls/test_16_proxy_mixed.py::TestProxyMixed::test_tls_16_proxy_mixed_ssl_get,test/modules/tls/test_16_proxy_mixed.py,skipped,0,0.172,0,0,No .profraw files were produced
+test/modules/tls/test_16_proxy_mixed.py::TestProxyMixed::test_tls_16_proxy_mixed_tls_get,test/modules/tls/test_16_proxy_mixed.py,skipped,0,0.171,0,0,No .profraw files were produced
+test/modules/tls/test_17_proxy_machine_cert.py::TestProxyMachineCert::test_tls_17_proxy_machine_cert_get_a,test/modules/tls/test_17_proxy_machine_cert.py,skipped,0,0.173,0,0,No .profraw files were produced
+test/modules/tls/test_17_proxy_machine_cert.py::TestProxyMachineCert::test_tls_17_proxy_machine_cert_vars,test/modules/tls/test_17_proxy_machine_cert.py,skipped,0,0.203,0,0,No .profraw files were produced

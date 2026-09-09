@@ -1,0 +1,20 @@
+{
+  "scopes": [
+    "test"
+  ],
+  "collected_tests": 601,
+  "collected_parameterized_cases": 945,
+  "passed_tests": 365,
+  "failed_tests": 11,
+  "skipped_tests": 225,
+  "mapped_functions": 53,
+  "mapped_functions_executed": 51,
+  "mapping_rows": 219,
+  "mapping_rows_with_candidate_tests": 214,
+  "unique_specs": 119,
+  "unique_specs_with_candidate_tests": 118,
+  "function_test_pairs": 13712,
+  "spec_test_candidate_rows": 61085,
+  "raw_profiles_retained": false,
+  "result_directory": "/results/full-suite/results"
+}

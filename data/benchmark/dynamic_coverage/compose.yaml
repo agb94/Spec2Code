@@ -1,0 +1,12 @@
+services:
+  coverage-all:
+    build:
+      context: ../../..
+      dockerfile: data/benchmark/dynamic_coverage/docker/Dockerfile
+    image: spec2code-httpd-coverage:local
+    environment:
+      COVERAGE_OUTPUT_DIR: ${COVERAGE_OUTPUT_DIR:-/results/full-suite}
+      COVERAGE_TIMEOUT: ${COVERAGE_TIMEOUT:-600}
+    init: true
+    volumes:
+      - ./docker/results:/results
